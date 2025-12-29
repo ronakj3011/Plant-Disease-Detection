@@ -1,7 +1,20 @@
-tensorflow==2.10.0
+pip install -r requirements.txt
+# Core ML / AI
+tensorflow==2.20.0
 scikit-learn==1.3.0
-numpy==1.24.3
+numpy==1.26.4
+
+# Data processing & visualization
+pandas==2.1.0
 matplotlib==3.7.2
 seaborn==0.13.0
-pandas==2.1.0
-streamlit
+
+# Audio processing
+librosa
+
+# Web UI
+streamlit==1.51.0
+
+# Compatibility
+protobuf<6
+
